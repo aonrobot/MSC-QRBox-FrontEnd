@@ -15,6 +15,8 @@ mix.react('assets/js/app.js', 'js')
    .sass('assets/sass/app.scss', 'css')
    .sass('assets/sass/login.scss', 'css');
 
+mix.browserSync('localhost/qrbox');
+
 // Full API
 // mix.js(src, output);
 // mix.react(src, output); <-- Identical to mix.js(), but registers React Babel compilation.
